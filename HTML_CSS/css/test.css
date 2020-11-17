@@ -1,35 +1,35 @@
-table{
+table {
 	border-collapse:collapse;
 	display:inline-block;
 	vertical-align:bottom;
 }
-th,td{
+th, td {
 	border:solid 1px;
 	border-color:#c0c0c0;
 	padding:5px;
 }
 
-th{
+th {
 	color:#808000;
 	background-color:#acffd6;
 }
 
-.No,.Per{
+.align-right{
 	text-align:right;
 }
 
-span{
+span {
 	color:red;
 	font-weight:bold;
 }
 
-img{
+img {
 	width:40px
 }
 
 
 
-div{
+div {
 	width:500px;
 	margin-right:auto;
 	margin-left:auto;
@@ -37,26 +37,26 @@ div{
 	border:1px solid #c0c0c0;
 	border-radius:5px;
 }
-div p{
+.right {
 	text-align:right;
 	margin-right:auto;
 	margin-left:auto;
 }
 
 
-input{
+input {
 	width:400px;
 }
-textarea{
+textarea {
 	width:400px;
 	height:100px;
 }
-.submit{
+.submit {
 	width:6em;
 	background-color:#0000ff;
 	color:white;
 }
-.sub{
-	vertical-align:center;
+.sub {
+	text-align:center;
 }
 

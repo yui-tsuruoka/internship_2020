@@ -5,6 +5,7 @@
 	<title>HTML_CSS課題</title>
 	<link href="css/test.css" media="all" rel="stylesheet">
 </head>
+<body>
 <main>
 <section>
 	<h2>課題１</h2>
@@ -19,43 +20,43 @@
 			<th>ロゴ</th>
 		</tr>
 		<tr>
-			<td class="No">1</td>
+			<td class="align-right">1</td>
 			<td>Python</td>
-			<td class="Per">31.02%</td>
+			<td class="align-right">31.02%</td>
 			<td><a href="https://docs.python.org/ja/3/" target="_blank">Python3.9.0</a></td>
 			<td><img src="img/python_icon.png" alt="pythonのアイコン"></td>
 		</tr>
 		<tr>
-			<td class="No">2</td>
+			<td class="align-right">2</td>
 			<td>Java</td>
-			<td class="Per">16.38%</td>
+			<td class="align-right">16.38%</td>
 			<td><a href="https://docs.oracle.com/javase/jp/11/" target="_blank">
 			Java11</a></td>
 			<td><img src="img/java_icon.png" alt="Javaのアイコン"></td>
 
 		</tr>
 		<tr>
-			<td class="No">3</td>
+			<td class="align-right">3</td>
 			<td>Javascript</td>
-			<td class="Per">8.41%</td>
+			<td class="align-right">8.41%</td>
 			<td><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference" target=_blank">
 			javascriptリファレンス</a></td>
 			<td><img src="img/javascript_icon.png" alt="javascriptのアイコン"></td>
 
 		</tr>
 		<tr>
-			<td class="No">4</td>
+			<td class="align-right">4</td>
 			<td>C#</td>
-			<td class="Per">6.52%</td>
+			<td class="align-right">6.52%</td>
 			<td><a href="https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/" target="_blank">
 			C#リファレンス</a>
 			</td>
 			<td><img src="img/c_icon.png" alt="C#のアイコン"></td>
 		</tr>
 		<tr>
-			<td class="No">5</td>
+			<td class="align-right">5</td>
 			<td>PHP</td>
-			<td class="Per">5.38%</td>
+			<td class="align-right">5.38%</td>
 			<td><a href="https://www.php.net/manual/ja/index.php" target="_blank">
 			PHPマニュアル</a></td>
 			<td><img src="img/php_icon.png" alt="PHPのアイコン"></td>
@@ -63,31 +64,31 @@
 	</table>
 	<table>
 		<tr>
-			<th class="No">No</th>
+			<th class="align-right">No</th>
 			<th>名前</th>
 			<th>おすすめポイント</th>
 		</tr>
 		<tr>
-			<td class="No">1</td>
+			<td class="align-right">1</td>
 			<td>Visual Studio Code</td>
 			<td><span>拡張機能が多く、</span>
 			様々な言語を効率よく開発できる</td>
 		</tr>
 		<tr>
-			<td class="No">2</td>
+			<td class="align-right">2</td>
 			<td>Atom</td>
 			<td>GitHubがリリースしたテキストエディタ<br>
 			<span>Gitとの親和性が高い</span></td>
 		</tr>
 		<tr>
-			<td class="No">3</td>
+			<td class="align-right">3</td>
 			<td>IntelliJ IDEA</td>
 			<td>JavaやScala,Typescriptといった言語での開発が可能<br>
 			公式サイトやヘルプが<span>日本語対応</span>になっている
 			</td>
 		</tr>
 		<tr>
-			<td class="No">4</td>
+			<td class="align-right">4</td>
 			<td>Eclipse</td>
 			<td><span>Javaに特化</span>したIDE<br>
 			様々な現場で使用されている
@@ -99,18 +100,18 @@
 	<h2>課題２</h2>
 	<p>問い合わせフォームを作成する</p>
 	<div>
-	<form method="post">
-		<p>Name:<input type="text" required name="yourname" placeholder="Your Name"></p>
-		<p>E-mail:<input type="email" required name="mail" placeholder="sample@xxx.com"></p>
-		<p>Message:<textarea id="message" name="message" placeholder="Please enter your question">
-		</textarea></p>
-		<p class="sub"><input class="submit" type="submit" value="submit"></p>
-	</form>
+		<form method="post">
+			<p class="right">Name:<input type="text" required name="yourname" placeholder="Your Name"></p>
+			<p class="right">E-mail:<input type="email" required name="mail" placeholder="sample@xxx.com" pattern=".+@.+\..+"></p>
+			<p class="right">Message:<textarea id="message" name="message" placeholder="Please enter your question">
+			</textarea></p>
+			<p class="sub"><input class="submit" type="submit" value="submit"></p>
+		</form>
 	</div>
-
-
 </seciton>
 </main>
+</body>
+</html>
 
 
 
