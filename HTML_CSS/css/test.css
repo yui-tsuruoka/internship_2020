@@ -41,16 +41,21 @@ div {
 	text-align:right;
 	margin-right:auto;
 	margin-left:auto;
+	vertical-align:middle;
+}
+
+input{
+	width:400px;
+}
+
+textarea{
+	text-align: left;
+	vertical-align: top;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 
-input {
-	width:400px;
-}
-textarea {
-	width:400px;
-	height:100px;
-}
 .submit {
 	width:6em;
 	background-color:#0000ff;
@@ -59,4 +64,7 @@ textarea {
 .sub {
 	text-align:center;
 }
+
+
+
 
